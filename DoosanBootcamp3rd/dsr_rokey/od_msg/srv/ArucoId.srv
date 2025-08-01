@@ -1,0 +1,4 @@
+# DetectAruco.srv
+# 요청은 비어 있음
+---
+int32 id
