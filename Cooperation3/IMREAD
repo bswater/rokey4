@@ -1,0 +1,8 @@
+두산로보틱스 부트캠프_ROKEY 4기_협동3. 디지털 트윈기반 서비스 로봇 운영 시스템 구성
+model : turtlebot3 buger cam
+export GAZEBO_PLUGIN_PATH=$HOME/turtlebot3_ws/build/turtlebot3_gazebo:$GAZEBO_PLUGIN_PATH # GAZEBO plugin connection export
+구현 기능 : 신호등 감지, 정지선 감지(me), 사람 인식, 표지판 인식, 차선 인식 및 회피 기동
+
+느낌점 : 초기 통신 계획 설정이 중요함. --> QoS와 최적화(topic 제어, 통신 방법 선택, 런치 파일 네임스페이스 구분 등)에 대한 경험이 됨. 
+어려웠던 점 : topic 값에 대한 서브스크라이브에 의한 제어에 어려움이 생겨 제어가 안됨. / 연산값이 튀어서 예상하지 못한 출력값이 나옴. 
+시스템 통합에 대한 이해도와 github 사용법에 대해서 더 자세히 배워야 할듯
